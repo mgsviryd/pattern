@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.strategy</OriginalElement>
+  <nodes>
+    <node x="201.0" y="0.0">com.test.pattern.strategy.Strategy</node>
+    <node x="201.0" y="102.0">com.test.pattern.strategy.OperationAdd</node>
+    <node x="402.0" y="102.0">com.test.pattern.strategy.OperationMultiply</node>
+    <node x="0.0" y="342.0">com.test.pattern.strategy.StrategyPatternDemo</node>
+    <node x="0.0" y="102.0">com.test.pattern.strategy.OperationSubstract</node>
+    <node x="0.0" y="199.0">com.test.pattern.strategy.Context</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.test.pattern.strategy.OperationAdd" target="com.test.pattern.strategy.Strategy">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.test.pattern.strategy.OperationMultiply" target="com.test.pattern.strategy.Strategy">
+      <point x="0.0" y="-26.0" />
+      <point x="492.5" y="77.0" />
+      <point x="351.83333333333337" y="77.0" />
+      <point x="60.33333333333337" y="26.0" />
+    </edge>
+    <edge source="com.test.pattern.strategy.OperationSubstract" target="com.test.pattern.strategy.Strategy">
+      <point x="0.0" y="-26.0" />
+      <point x="90.5" y="77.0" />
+      <point x="231.16666666666666" y="77.0" />
+      <point x="-60.33333333333334" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="208.0" y="170.0" />
+  <SelectedNodes>
+    <node>com.test.pattern.strategy.OperationSubstract</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

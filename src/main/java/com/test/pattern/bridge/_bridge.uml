@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.bridge</OriginalElement>
+  <nodes>
+    <node x="15.0" y="148.0">com.test.pattern.bridge.Circle</node>
+    <node x="463.0" y="335.0">com.test.pattern.bridge.BridgePatternDemo</node>
+    <node x="0.0" y="0.0">com.test.pattern.bridge.Shape</node>
+    <node x="109.5" y="335.0">com.test.pattern.bridge.DrawAPI</node>
+    <node x="219.0" y="437.0">com.test.pattern.bridge.RedCircle</node>
+    <node x="0.0" y="437.0">com.test.pattern.bridge.GreenCircle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.test.pattern.bridge.GreenCircle" target="com.test.pattern.bridge.DrawAPI">
+      <point x="0.0" y="-26.0" />
+      <point x="99.5" y="412.0" />
+      <point x="159.25" y="412.0" />
+      <point x="-49.75" y="26.0" />
+    </edge>
+    <edge source="com.test.pattern.bridge.Circle" target="com.test.pattern.bridge.Shape">
+      <point x="0.0" y="-71.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.test.pattern.bridge.RedCircle" target="com.test.pattern.bridge.DrawAPI">
+      <point x="0.0" y="-26.0" />
+      <point x="318.5" y="412.0" />
+      <point x="258.75" y="412.0" />
+      <point x="49.75" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="138.5" y="233.0" />
+  <SelectedNodes>
+    <node>com.test.pattern.bridge.Shape</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

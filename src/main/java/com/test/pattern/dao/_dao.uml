@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.dao</OriginalElement>
+  <nodes>
+    <node x="284.0" y="377.0">com.test.pattern.dao.DaoPatternDemo</node>
+    <node x="0.0" y="377.0">com.test.pattern.dao.Student</node>
+    <node x="0.0" y="168.0">com.test.pattern.dao.StudentDaoImpl</node>
+    <node x="0.0" y="0.0">com.test.pattern.dao.StudentDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.test.pattern.dao.StudentDaoImpl" target="com.test.pattern.dao.StudentDao">
+      <point x="0.0" y="-82.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="123.0" y="273.0" />
+  <SelectedNodes>
+    <node>com.test.pattern.dao.DaoPatternDemo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

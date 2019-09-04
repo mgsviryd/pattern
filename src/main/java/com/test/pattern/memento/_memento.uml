@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.memento</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.test.pattern.memento.Originator</node>
+    <node x="239.0" y="0.0">com.test.pattern.memento.Memento</node>
+    <node x="0.0" y="186.0">com.test.pattern.memento.CareTaker</node>
+    <node x="0.0" y="328.0">com.test.pattern.memento.MementoPatternDemo</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="109.0" y="210.0" />
+  <SelectedNodes>
+    <node>com.test.pattern.memento.Originator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

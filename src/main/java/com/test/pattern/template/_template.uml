@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.template</OriginalElement>
+  <nodes>
+    <node x="85.0" y="0.0">com.test.pattern.template.Game</node>
+    <node x="191.0" y="168.0">com.test.pattern.template.Cricket</node>
+    <node x="0.0" y="309.0">com.test.pattern.template.TemplatePatternDemo</node>
+    <node x="0.0" y="168.0">com.test.pattern.template.Football</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.test.pattern.template.Football" target="com.test.pattern.template.Game">
+      <point x="0.0" y="-48.0" />
+      <point x="85.5" y="143.0" />
+      <point x="133.0" y="143.0" />
+      <point x="-48.0" y="59.0" />
+    </edge>
+    <edge source="com.test.pattern.template.Cricket" target="com.test.pattern.template.Game">
+      <point x="0.0" y="-48.0" />
+      <point x="276.5" y="143.0" />
+      <point x="229.0" y="143.0" />
+      <point x="48.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="153.0" />
+  <SelectedNodes>
+    <node>com.test.pattern.template.Football</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

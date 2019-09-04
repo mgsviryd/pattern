@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.filter</OriginalElement>
+  <nodes>
+    <node x="212.0" y="136.0">com.test.pattern.filter.CriteriaFemale</node>
+    <node x="284.0" y="267.0">com.test.pattern.filter.CriteriaPatternDemo</node>
+    <node x="503.0" y="136.0">com.test.pattern.filter.CriteriaSingle</node>
+    <node x="503.0" y="0.0">com.test.pattern.filter.Criteria</node>
+    <node x="794.0" y="136.0">com.test.pattern.filter.CriteriaMale</node>
+    <node x="0.0" y="267.0">com.test.pattern.filter.Person</node>
+    <node x="1085.0" y="102.0">com.test.pattern.filter.AndCriteria</node>
+    <node x="0.0" y="102.0">com.test.pattern.filter.OrCriteria</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.test.pattern.filter.CriteriaMale" target="com.test.pattern.filter.Criteria">
+      <point x="0.0" y="-26.0" />
+      <point x="929.5" y="82.0" />
+      <point x="692.7" y="82.0" />
+      <point x="54.19999999999999" y="26.0" />
+    </edge>
+    <edge source="com.test.pattern.filter.CriteriaFemale" target="com.test.pattern.filter.Criteria">
+      <point x="0.0" y="-26.0" />
+      <point x="347.5" y="82.0" />
+      <point x="584.3" y="82.0" />
+      <point x="-54.19999999999999" y="26.0" />
+    </edge>
+    <edge source="com.test.pattern.filter.CriteriaSingle" target="com.test.pattern.filter.Criteria">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.test.pattern.filter.AndCriteria" target="com.test.pattern.filter.Criteria">
+      <point x="0.0" y="-60.0" />
+      <point x="1181.0" y="72.0" />
+      <point x="746.9" y="72.0" />
+      <point x="108.39999999999998" y="26.0" />
+    </edge>
+    <edge source="com.test.pattern.filter.OrCriteria" target="com.test.pattern.filter.Criteria">
+      <point x="0.0" y="-60.0" />
+      <point x="96.0" y="72.0" />
+      <point x="530.1" y="72.0" />
+      <point x="-108.39999999999998" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="285.5" y="92.5" />
+  <SelectedNodes>
+    <node>com.test.pattern.filter.OrCriteria</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

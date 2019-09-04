@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.interpreter</OriginalElement>
+  <nodes>
+    <node x="172.0" y="102.0">com.test.pattern.interpreter.OrExpression</node>
+    <node x="393.0" y="102.0">com.test.pattern.interpreter.AndExpression</node>
+    <node x="0.0" y="267.0">com.test.pattern.interpreter.InterpreterPatternDemo</node>
+    <node x="0.0" y="113.0">com.test.pattern.interpreter.TerminalExpression</node>
+    <node x="180.0" y="0.0">com.test.pattern.interpreter.Expression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.test.pattern.interpreter.OrExpression" target="com.test.pattern.interpreter.Expression">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.test.pattern.interpreter.AndExpression" target="com.test.pattern.interpreter.Expression">
+      <point x="0.0" y="-60.0" />
+      <point x="493.5" y="77.0" />
+      <point x="334.16666666666663" y="77.0" />
+      <point x="61.66666666666663" y="26.0" />
+    </edge>
+    <edge source="com.test.pattern.interpreter.TerminalExpression" target="com.test.pattern.interpreter.Expression">
+      <point x="0.0" y="-49.0" />
+      <point x="76.0" y="77.0" />
+      <point x="210.83333333333334" y="77.0" />
+      <point x="-61.66666666666666" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="195.0" y="173.0" />
+  <SelectedNodes>
+    <node>com.test.pattern.interpreter.Expression</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

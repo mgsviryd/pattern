@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.command</OriginalElement>
+  <nodes>
+    <node x="224.0" y="245.0">com.test.pattern.command.Broker</node>
+    <node x="195.0" y="102.0">com.test.pattern.command.BuyStock</node>
+    <node x="0.0" y="245.0">com.test.pattern.command.Stock</node>
+    <node x="0.0" y="409.0">com.test.pattern.command.CommandPatternDemo</node>
+    <node x="0.0" y="102.0">com.test.pattern.command.SellStock</node>
+    <node x="120.5" y="0.0">com.test.pattern.command.Order</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.test.pattern.command.BuyStock" target="com.test.pattern.command.Order">
+      <point x="0.0" y="-49.0" />
+      <point x="282.5" y="77.0" />
+      <point x="217.25" y="77.0" />
+      <point x="32.25" y="26.0" />
+    </edge>
+    <edge source="com.test.pattern.command.SellStock" target="com.test.pattern.command.Order">
+      <point x="0.0" y="-49.0" />
+      <point x="87.5" y="77.0" />
+      <point x="152.75" y="77.0" />
+      <point x="-32.25" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="137.0" y="250.0" />
+  <SelectedNodes>
+    <node>com.test.pattern.command.Broker</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

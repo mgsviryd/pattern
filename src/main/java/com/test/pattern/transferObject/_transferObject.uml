@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.transferObject</OriginalElement>
+  <nodes>
+    <node x="0.0" y="231.0">com.test.pattern.transferObject.StudentBO</node>
+    <node x="0.0" y="0.0">com.test.pattern.transferObject.StudentVO</node>
+    <node x="339.0" y="231.0">com.test.pattern.transferObject.TransferObjectPatternDemo</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="91.0" y="170.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

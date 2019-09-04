@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.serviceLocator</OriginalElement>
+  <nodes>
+    <node x="169.0" y="124.0">com.test.pattern.serviceLocator.Service2</node>
+    <node x="0.0" y="408.0">com.test.pattern.serviceLocator.ServiceLocatorPatternDemo</node>
+    <node x="275.0" y="243.0">com.test.pattern.serviceLocator.ServiceLocator</node>
+    <node x="0.0" y="124.0">com.test.pattern.serviceLocator.Service1</node>
+    <node x="76.0" y="0.0">com.test.pattern.serviceLocator.Service</node>
+    <node x="0.0" y="243.0">com.test.pattern.serviceLocator.Cache</node>
+    <node x="226.0" y="408.0">com.test.pattern.serviceLocator.InitialContext</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.test.pattern.serviceLocator.Service2" target="com.test.pattern.serviceLocator.Service">
+      <point x="0.0" y="-37.0" />
+      <point x="243.5" y="99.0" />
+      <point x="200.5" y="99.0" />
+      <point x="41.5" y="37.0" />
+    </edge>
+    <edge source="com.test.pattern.serviceLocator.Service1" target="com.test.pattern.serviceLocator.Service">
+      <point x="0.0" y="-37.0" />
+      <point x="74.5" y="99.0" />
+      <point x="117.5" y="99.0" />
+      <point x="-41.5" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="130.0" y="248.0" />
+  <SelectedNodes>
+    <node>com.test.pattern.serviceLocator.Service</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

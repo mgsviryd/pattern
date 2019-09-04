@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.test.pattern.iterator</OriginalElement>
+  <nodes>
+    <node x="216.0" y="222.0">com.test.pattern.iterator.IteratorPatternDemo</node>
+    <node x="0.0" y="222.0">com.test.pattern.iterator.Iterator</node>
+    <node x="0.0" y="0.0">com.test.pattern.iterator.Container</node>
+    <node x="3.5" y="102.0">com.test.pattern.iterator.NameRepository</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.test.pattern.iterator.NameRepository" target="com.test.pattern.iterator.Container">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="130.0" y="133.0" />
+  <SelectedNodes>
+    <node>com.test.pattern.iterator.IteratorPatternDemo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
